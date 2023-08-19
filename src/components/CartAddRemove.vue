@@ -9,9 +9,7 @@
     </div>
 </template>
 <script>
-import 'vue3-toastify/dist/index.css';
 export default {
-    name: 'CartAddRemove',
     props: ['product'],
     data() {
         return {
@@ -21,7 +19,6 @@ export default {
     methods: {
     },
     mounted() {
-        this.qty = this.product.qty
     }
 }
 </script>
