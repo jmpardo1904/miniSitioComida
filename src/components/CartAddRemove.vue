@@ -20,12 +20,6 @@ export default {
         }
     },
     methods: {
-        async addOrRemove(number) {
-            this.loading = true
-            if (number == 1) {
-            }
-            this.loading = false
-        }
     },
     mounted() {
         this.qty = this.product.qty
@@ -35,4 +29,5 @@ export default {
 <style>
 .plus-minus input {
     max-width: 50px;
-}</style>
+}
+</style>
