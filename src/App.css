@@ -1,0 +1,15 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://tupescadodecadadia.com/wp-content/uploads/2019/12/Ca-Kho-To-panga-dish-1920x2880.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+.bg-image-registro {
+  background-image: url('https://restaurantesdomeigo.es/wp-content/uploads/MG_0759-1920x2880.jpg');
+  background-size: cover;
+  background-position: center center;
+}
