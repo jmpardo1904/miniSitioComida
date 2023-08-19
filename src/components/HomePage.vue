@@ -6,6 +6,8 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav">
                         <li class="nav-item">
+                            <router-link to="/CartPage"
+                                            class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Carrito</router-link>
                             <button class="btn btn-danger btn-logout" @click="cerrarSesion">Cerrar Sesión</button>
                         </li>
                     </ul>

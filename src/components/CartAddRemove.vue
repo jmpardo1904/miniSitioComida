@@ -15,7 +15,6 @@ export default {
     props: ['product'],
     data() {
         return {
-            qty: 1,
             loading: false
         }
     },
